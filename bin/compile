@@ -45,9 +45,9 @@ echo "fin de telecharger mod_tile"
 echo "installer mod_tile"
 cd mod_tile
 ./autogen.sh
-./configure
+./configure --prefix="$BUILD_DIR"
 make
-make install --prefix="$BUILD_DIR"
+make install
 make install-mod_tile
 ldconfig
 echo "fin de installer mod_tile"
