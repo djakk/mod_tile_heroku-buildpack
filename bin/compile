@@ -31,11 +31,8 @@ function indent() {
   esac
 }
 
-cd
-mkdir src
-
 echo "telecharger mod_tile"
-cd ~/src
+cd "$BUILD_DIR"
 git clone git://github.com/SomeoneElseOSM/mod_tile.git
 cd mod_tile
 echo "fin de telecharger mod_tile"
