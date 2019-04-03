@@ -48,6 +48,6 @@ cd mod_tile
 ./configure
 make
 make install --prefix="$BUILD_DIR"
-make install-mod_tile --prefix="$BUILD_DIR"
+make install-mod_tile
 ldconfig
 echo "fin de installer mod_tile"
