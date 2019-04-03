@@ -47,7 +47,7 @@ cd mod_tile
 ./autogen.sh
 ./configure
 make
-#make install --prefix="$BUILD_DIR"
-#make install-mod_tile
-#ldconfig
+make install --prefix="$BUILD_DIR"
+make install-mod_tile
+ldconfig
 echo "fin de installer mod_tile"
