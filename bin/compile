@@ -36,9 +36,9 @@ cd "$BUILD_DIR"
 git clone git://github.com/SomeoneElseOSM/mod_tile.git
 echo "fin de telecharger mod_tile"
 
-echo "telecharger lifemap"
-git clone https://github.com/damiendevienne/Lifemap.git
-echo "fin de telecharger lifemap"
+#echo "telecharger lifemap"
+#git clone https://github.com/damiendevienne/Lifemap.git
+#echo "fin de telecharger lifemap"
 
 #cp -r Lifemap/OTHER/mod_tile/includes Lifemap/OTHER/mod_tile/src mod_tile/
 
