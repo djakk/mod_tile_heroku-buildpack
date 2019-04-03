@@ -40,7 +40,7 @@ echo "telecharger lifemap"
 git clone https://github.com/damiendevienne/Lifemap.git
 echo "fin de telecharger lifemap"
 
-cp -r Lifemap/OTHER/mod_tile/includes Lifemap/OTHER/mod_tile/src mod_tile/
+#cp -r Lifemap/OTHER/mod_tile/includes Lifemap/OTHER/mod_tile/src mod_tile/
 
 echo "installer mod_tile"
 cd mod_tile
