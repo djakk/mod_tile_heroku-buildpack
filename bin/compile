@@ -49,5 +49,5 @@ cd mod_tile
 make
 make install
 make install-mod_tile
-ldconfig
+#ldconfig
 echo "fin de installer mod_tile"
